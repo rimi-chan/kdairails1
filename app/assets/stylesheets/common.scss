@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+header, footer {
+    width: 100%;
+    padding: 10px;
+    background: #c52f24;
+    color: #fff;
+    margin: 0px;
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+    display: block;
+}
+
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  padding-left: 10px;
+}
+
+
+table {
+  border-collapse: collapse;
+  margin-left: 10px;
+}
+
+table th{
+  background-color :#FFDEAD;
+  padding: 10px 20px;
+}
+
+table td{
+  background-color: #FFEBCD;
+  padding: 13px 40px;
+  border : solid 1px black ;
+  
+}
+
+
+table th {
+  background-color: #FFDEAD;
+  color: #black;
+  border: solid 1px black;
+  padding: 10px 20px;
+  
+}
+
+.formchange{
+  width: 400px;
+  height: 25px;
+}
+
+.sizechenge{
+  width: 400px;
+  height: 25px;
+}
+
+.sizechenges{
+  width: 400px;
+  height: 200px;
+}
+
+.hoge{
+  width: 400px;
+  height: 200px;
+}
+
+
+.notice {
+  background-color: pink;
+  color: #black;
+  border: solid 1px black;
+  border-collapse: collapse;
+  margin-left: 10px;
+  padding: 15px;
+  width: 400px;
+  text-align: center;
+  
+}
+
+.error_message{
+  background-color: pink;
+  color: #black;
+  border: solid 1px black;
+  border-collapse: collapse;
+  margin-left: 10px;
+  padding: 15px;
+  width: 400px;
+  text-align: center;
+}
+
+#alert{
+  background-color: pink;
+  color: #black;
+  border: solid 1px black;
+  border-collapse: collapse;
+  margin-left: 10px;
+  padding: 15px;
+  width: 400px;
+  text-align: center;
+  
+}

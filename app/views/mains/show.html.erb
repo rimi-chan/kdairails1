@@ -1,0 +1,47 @@
+<h3>スケジュール詳細</h3>
+
+<table>
+  <tr>
+   <th>タイトル</th>
+   <td><%= @main.title %></td>
+  </tr>
+    
+  <tr>
+   <th>開始日</th>
+   <td><%= @main.start_at.to_s(:date_jp) %></td>
+  </tr>
+    
+  <tr>
+   <th>終了日</th>
+   <td><%= @main.end_at.to_s(:date_jp) %></td>
+  </tr>
+    
+  <tr>
+   <th>終日</th>
+   <td>
+    <% if @main.checkbox == true %>
+     ◯
+    <% else @main.checkbox == false %>
+    
+    <% end %>
+   </td>
+  </tr>
+    
+  <tr>
+   <th>スケジュールメモ</th>
+   <td><%= @main.memo %></td>
+  </tr>
+</table>
+
+<div>
+  <ul>
+   <li><%= link_to"ユーザー情報一覧に戻る",:mains %></li>
+   <li><%= link_to"スケジュールを編集する", :edit_main %></li>
+   <li><%= link_to"スケジュールを削除する", @main, method: :delete, data: {confirm: "本当に削除しますか？" } %></li>
+  </ul>
+ </div>
+    
+ 
+<footer>
+  <h1>現在の日時：<%= Date.today.strftime("%Y年%m月%d日") %></h1>
+</footer>
